@@ -36,13 +36,39 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Login</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Login</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control" placeholder="Enter Email">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Enter Password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -88,7 +114,7 @@
                     <p><a class="btn btn-primary" href="#">Sign Up Today</a></p>
                   </div>
                   <div class="col-md-5">
-                  <img src="img/servers1.png" />
+                  <img src="img/servers2.png" />
                   </div>
                 </div>
               </div>
@@ -103,7 +129,7 @@
                     <p><a class="btn btn-primary" href="#">Sign Up Today</a></p>
                   </div>
                   <div class="col-md-5">
-                  <img class="server-img" src="img/servers1.png" />
+                  <img class="server-img" src="img/servers3.png" />
                   </div>
                 </div>
               </div>
@@ -120,8 +146,119 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+    <section class="marketing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fa fa-user fa-5x fa-border"></i>
+            <h2>24/7 Support</h2>
+            <p>Suspendisse non mi commodo ipsum rutrum faucibus. Nam id urna eget nibh vehicula eleifend. Sed diam magna, cursus eget orci at, placerat sagittis lacus.</p>
+            <p><a class="btn btn-default" href="#">View Details</a></p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-wordpress fa-5x fa-border"></i>
+            <h2>One-Click Installation</h2>
+            <p>We have awesome one-click installation programs. Nam id urna eget nibh vehicula eleifend. Sed diam magna, cursus eget orci at, placerat sagittis lacus.</p>
+            <p><a class="btn btn-default" href="#">View Details</a></p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-server fa-5x fa-border"></i>
+            <h2>Daily Backups</h2>
+            <p>Your server will be backed up daily. Nam id urna eget nibh vehicula eleifend. Sed diam magna, cursus eget orci at, placerat sagittis lacus.</p>
+            <p><a class="btn btn-default" href="#">View Details</a></p>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow_box text-center">
+                <h3>Starter Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size:40px;"><strong>$3.99 / month</strong></p>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Free Domain</li>
+                <li class="list-group-item">1GB Disk Space</li>
+                <li class="list-group-item">10GB Bandwidth</li>
+                <li class="list-group-item">5 Email Accounts</li>
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow_box text-center">
+                <h3>Simple Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size:40px;"><strong>$8.99 / month</strong></p>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Free Domain</li>
+                <li class="list-group-item">5GB Disk Space</li>
+                <li class="list-group-item">25GB Bandwidth</li>
+                <li class="list-group-item">20 Email Accounts</li>
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div><div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow_box text-center">
+                <h3>Standard Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size:40px;"><strong>$12.99 / month</strong></p>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Free Domain</li>
+                <li class="list-group-item">35GB Disk Space</li>
+                <li class="list-group-item">50GB Bandwidth</li>
+                <li class="list-group-item">Unlimited Email Accounts</li>
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div><div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow_box text-center">
+                <h3>Super Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size:40px;"><strong>$17.99 / month</strong></p>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">2 Free Domains</li>
+                <li class="list-group-item">80GB Disk Space</li>
+                <li class="list-group-item">100GB Bandwidth</li>
+                <li class="list-group-item">Unlimited Email Accounts</li>
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to Top</a></p>
+        <p>EDX Hosting &copy; 2016. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
